@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+* {
+    margin: 0px;
+}
+
+header {
+    background: rgba(229, 84, 115, 0.10);
+
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto 240px;
+    max-width: 1920px;
+    width: 75%;
+    gap: 72px;
+
+
+}
+
+
+.container .heading {
+    max-width: 708px;
+    color: #272727;
+    font-size: 60px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+
+.container .content .description {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    width: 634px;
+    margin-bottom: 24px;
+}
+
+.container .content input {
+    display: inline-flex;
+    padding: 20px 43px;
+    align-items: flex-start;
+    border-radius: 8px;
+    background: #E55473;
+    gap: 10px;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    border: none;
+
+
+}
+
+.container .content .img {
+    max-width: 635px;
+    width: 75%;
+    height: 800px;
+}
