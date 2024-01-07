@@ -39,7 +39,7 @@ header {
 }
 
 .container .content input,
-.section-4 .content input {
+.section-4 .content input ,.section-7 .content input[type="button"]{
     display: inline-flex;
     padding: 20px 43px;
     align-items: flex-start;
@@ -60,12 +60,12 @@ header {
     height: 800px;
 }
 
-.section-1 .content ,.section-5 .content {
+.section-1 .content ,.section-5 .content , .section-7 .content {
     margin: 50px auto;
 }
 
 .section-1 .content .heading,
-.section-4 .content .heading ,.section-5 .content .heading{
+.section-4 .content .heading ,.section-5 .content .heading ,.section-7 .content .heading{
     color: #272727;
     text-align: center;
     font-size: 40px;
@@ -76,7 +76,7 @@ header {
 }
 
 .section-1 .content .description,
-.section-4 .content .description , .section-5 .content .description{
+.section-4 .content .description , .section-5 .content .description , .section-7 .content .description{
     color: rgba(39, 39, 39, 0.60);
     text-align: center;
     font-size: 18px;
@@ -195,5 +195,22 @@ header {
     align-items: center;
     width: 75%;
     margin: auto;
-    gap: 24px;
+    gap: 18px;
+}
+
+.section-7 {
+    background-image: url(/flower-shop/Flower-Asset/Rectangle\ 9.png);
+    display: flex;
+    width: 75%;
+    height: 337px;
+    margin: 96px auto;
+    border-radius: 10px;
+}
+
+.section-7 .content input[type="email"] {
+    width: 700px;
+    height: 64px;
+    border: none;
+    border-radius: 10px;
+    
 }
