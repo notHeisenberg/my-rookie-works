@@ -88,7 +88,7 @@ header {
 }
 
 
-.section-2 .container {
+.section-2 .container ,.section-6 .container{
     display: flex;
     justify-content: center;
     align-items: first baseline;
@@ -189,3 +189,11 @@ header {
     margin: 32px auto;
 }
 
+.section-6{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 75%;
+    margin: auto;
+    gap: 24px;
+}
