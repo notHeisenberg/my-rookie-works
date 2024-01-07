@@ -60,12 +60,12 @@ header {
     height: 800px;
 }
 
-.section-1 .content {
+.section-1 .content ,.section-5 .content {
     margin: 50px auto;
 }
 
 .section-1 .content .heading,
-.section-4 .content .heading {
+.section-4 .content .heading ,.section-5 .content .heading{
     color: #272727;
     text-align: center;
     font-size: 40px;
@@ -76,7 +76,7 @@ header {
 }
 
 .section-1 .content .description,
-.section-4 .content .description {
+.section-4 .content .description , .section-5 .content .description{
     color: rgba(39, 39, 39, 0.60);
     text-align: center;
     font-size: 18px;
@@ -182,10 +182,10 @@ header {
 .section-4 .content {
     margin: auto;
     justify-content: space-between;
-    padding:20px;
 }
 
 .section-4 .content .button {
     text-align: center;
     margin: 32px auto;
 }
+
