@@ -2,6 +2,7 @@
 
 * {
     margin: 0px;
+    max-width: 1920px;
 }
 
 header {
@@ -88,7 +89,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: first baseline;
-    margin:48px auto;
+    margin: 48px auto;
     max-width: 464px;
     max-height: 538px;
     gap: 24px;
@@ -132,4 +133,38 @@ header {
     font-weight: 700;
     line-height: 35px;
     text-decoration-line: underline;
+}
+
+.section-3 .container {
+    display: flex;
+    width: 75%;
+    margin: 96px auto;
+    padding: 64px;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+
+}
+
+
+.section-3 .container .icon-info .img{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 24px;
+    width: 64px;
+    height: aut;
+    padding: 0 64px;
+
+}
+
+.section-3 .container .icon-info .description {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: rgba(39, 39, 39, 0.80);
+    text-align: center;
+    font-size: 15px;
+    font-weight: 600;
+
 }
