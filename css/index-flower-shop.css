@@ -5,6 +5,9 @@
     max-width: 1920px;
 }
 
+.important{
+    color: #E55473;
+}
 header {
     background: rgba(229, 84, 115, 0.10);
 
@@ -65,7 +68,7 @@ header {
 }
 
 .section-1 .content .heading,
-.section-4 .content .heading ,.section-5 .content .heading ,.section-7 .content .heading{
+.section-4 .content .heading ,.section-5 .content .heading ,.section-7 .content .heading , footer .content .heading{
     color: #272727;
     text-align: center;
     font-size: 40px;
@@ -76,7 +79,7 @@ header {
 }
 
 .section-1 .content .description,
-.section-4 .content .description , .section-5 .content .description , .section-7 .content .description{
+.section-4 .content .description , .section-5 .content .description , .section-7 .content .description ,  footer .content .description{
     color: rgba(39, 39, 39, 0.60);
     text-align: center;
     font-size: 18px;
@@ -213,4 +216,31 @@ header {
     border: none;
     border-radius: 10px;
     
+}
+
+footer {
+    width: 1441;
+    height: 337px;
+    padding:96px;
+    margin:auto;
+    background: #111010;
+
+}
+
+footer .content .heading{
+    color: #FFF;
+}
+
+footer .content .description{
+    color: #FFFFFFE5;
+}
+footer .content .copywrite{
+    color: rgba(255, 255, 255, 0.40);
+}
+
+footer .content .copywrite ul{ 
+    display: flex;
+    justify-content:center;
+    list-style: none;
+
 }
